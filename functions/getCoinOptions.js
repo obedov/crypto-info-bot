@@ -1,4 +1,3 @@
-
 export const getCoinOptions = (coinList, callBackName) => {
     let coinOptions = [];
     let coinRow = [];
@@ -17,26 +16,4 @@ export const getCoinOptions = (coinList, callBackName) => {
     }
 
     return coinOptions;
-
-    // const replyOptionsArray = [];
-    //
-    // coinList.forEach((coin, index) => {
-    //     if (index % 5 === 0) {
-    //         coinOptions.push(coinRow);
-    //         coinRow = [];
-    //     }
-    //
-    //     coinRow.push({ text: coin, callback_data: `${coin}${callBackName}` });
-    //
-    //     if (index % 50 === 0) {
-    //         replyOptionsArray.push({
-    //             reply_markup: JSON.stringify({
-    //                 inline_keyboard: coinOptions
-    //             })
-    //         });
-    //         coinOptions = [];
-    //     }
-    // });
-    //
-    // return replyOptionsArray;
 };

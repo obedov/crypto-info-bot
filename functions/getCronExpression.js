@@ -2,17 +2,35 @@
 
 export const getCronExpression = (interval) => {
     let cronExpression = '* * * * *';
-    
-    if (interval === '5m') cronExpression = '*/5 * * * *';
-    if (interval === '15m') cronExpression = '*/15 * * * *';
 
-    if (interval === '30m') cronExpression = '*/30 * * * *';
-    if (interval === '1h') cronExpression = '0 */1 * * *';
-    if (interval === '3h') cronExpression = '0 */3 * * *';
-
-    if (interval === '6h') cronExpression = '0 */6 * * *';
-    if (interval === '12h') cronExpression = '0 */12 * * *';
-    if (interval === '24h') cronExpression = '0 */24 * * *';
+    switch (interval){
+        case '5m':
+            cronExpression = '*/5 * * * *';
+            break;
+        case '15m':
+            cronExpression = '*/15 * * * *';
+            break;
+        case '30m':
+            cronExpression = '*/30 * * * *';
+            break;
+        case '1h':
+            cronExpression = '0 */1 * * *';
+            break;
+        case '3h':
+            cronExpression = '0 */3 * * *';
+            break;
+        case '6h':
+            cronExpression = '0 */6 * * *';
+            break;
+        case '12h':
+            cronExpression = '0 */12 * * *';
+            break;
+        case '24h':
+            cronExpression = '0 */24 * * *';
+            break;
+        default:
+            cronExpression = '* * * * *';
+    }
 
     return cronExpression;
 }

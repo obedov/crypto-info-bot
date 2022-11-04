@@ -1,4 +1,3 @@
-
 /** requestObject: { textKey1: callBackValue1, textKey2: callBackValue, ... } */
 
 export const getReplyOptions = (requestObject) => {

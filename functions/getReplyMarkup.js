@@ -1,4 +1,3 @@
-
 export const getReplyMarkup = (options) => {
     return {
         reply_markup: JSON.stringify({

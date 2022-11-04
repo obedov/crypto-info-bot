@@ -1,0 +1,10 @@
+export const coinPriceCallBack = '_coin_price';
+export const coinSubscribeCallBack = '_coin_subscribe';
+export const coinUnsubscribeCallBack = '_coin_unsubscribe';
+export const timeSubscribeCallBack = '_time_subscribe';
+export const timeUnsubscribeCallBack = '_time_unsubscribe';
+export const backToCoinSubscribeCallBack = '_back_to_coin_subscribe';
+export const backToCoinUnsubscribeCallBack = '_back_to_coin_unsubscribe';
+export const cancelSubscribeCallBack = '_cancel_subscribe';
+export const cancelUnsubscribeCallBack = '_cancel_unsubscribe';
+export const cancelPriceCallBack = '_cancel_price';

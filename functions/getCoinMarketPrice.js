@@ -5,5 +5,6 @@ const roundTwoDigits = (num) => +num.toFixed(4);
 
 export const getCoinMarketPrice = async (coin) => {
     const getCoinMarketPrice = await axios.get(`${MARKET_PRICE_URL}${coin}`);
-    return roundTwoDigits(+getCoinMarketPrice.data.price);
+
+    return roundTwoDigits(+getCoinMarketPrice?.data?.price);
 };
