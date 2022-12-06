@@ -1,6 +1,4 @@
-# telegram-crypto-bot
-
-## Crypto info bot
+# crypto-bot
 
 ###### Commands:
 1) /price - Get coin price
