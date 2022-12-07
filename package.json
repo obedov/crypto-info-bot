@@ -1,7 +1,7 @@
 {
-  "name": "crypto-bot",
+  "name": "crypto-info-bot",
   "version": "1.0.0",
-  "description": "crypto bot",
+  "description": "crypto info bot",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
